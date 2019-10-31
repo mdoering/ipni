@@ -27,7 +27,7 @@
 			<onlineUrl>http://www.gbif.org</onlineUrl>
 		</metadataProvider>
 		<language>en</language>
-		<pubDate>2017-11-06</pubDate>
+		<pubDate>2019-10-31</pubDate>
 		<abstract>
 			<para>The International Plant Names Index (IPNI) is a database of the names and associated basic bibliographical details of seed plants, ferns and lycophytes. 
 				Its goal is to eliminate the need for repeated reference to primary sources for basic bibliographic information about plant names. 
@@ -53,8 +53,8 @@
 	<additionalMetadata>
 		<metadata>
 			<gbif>
-				<dateStamp>2017-11-10T11:03:33Z</dateStamp>
-				<citation>The International Plant Names Index Collaborators. International Plant Names Index. Checklist Dataset https://doi.org/10.15468/uhllmw accessed via GBIF.org on 2017-11-10.</citation>
+				<dateStamp>2019-10-31T11:03:33Z</dateStamp>
+				<citation>The International Plant Names Index Collaborators. International Plant Names Index. Checklist Dataset https://doi.org/10.15468/uhllmw accessed via GBIF.org on 2019-10-31.</citation>
 			</gbif>
 		</metadata>
 	</additionalMetadata>

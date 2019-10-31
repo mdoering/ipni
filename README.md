@@ -103,6 +103,6 @@ CREATE TABLE name (
 ```
 
 ```
-\copy (SELECT id,taxon_scientific_name_s_lower,authors_t,rank_s_alphanum,family_s_lower,'urn:lsid:ipni.org:names:' || lookup_nomenclatural_synonym_id,'urn:lsid:ipni.org:names:' || lookup_parent_id,lookup_publication_id,publication_year_i,reference_t,citation_type_s_lower,'https://www.ipni.org/n/' || id FROM name WHERE top_copy_b) to 'ipni.csv' with CSV
+\copy (SELECT id,taxon_scientific_name_s_lower,authors_t,rank_s_alphanum,family_s_lower,'urn:lsid:ipni.org:names:' || lookup_nomenclatural_synonym_id,'urn:lsid:ipni.org:names:' || lookup_parent_id,lookup_publication_id,publication_year_i,reference_t,citation_type_s_lower,'https://www.ipni.org/n/' || id FROM name WHERE top_copy_b AND NOT suppressed_b) to 'ipni.csv' with CSV
 ```
 

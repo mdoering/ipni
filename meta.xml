@@ -2,7 +2,7 @@
 <archive xmlns="http://rs.tdwg.org/dwc/text/">
   <core encoding="UTF-8" fieldsTerminatedBy="," linesTerminatedBy="\n" fieldsEnclosedBy='"' ignoreHeaderLines="0" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
     <files>
-      <location>ipni.txt</location>
+      <location>ipni.csv</location>
     </files>
     <id index="0" />
     <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
